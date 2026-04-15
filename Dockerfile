@@ -5,6 +5,6 @@ WORKDIR /server
 COPY server.jar server.jar
 COPY eula.txt eula.txt
 
-EXPOSE 8080
+EXPOSE 10000
 
 CMD ["java", "-jar", "server.jar"]
