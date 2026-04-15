@@ -6,4 +6,4 @@ COPY EaglerXServer.jar server.jar
 
 EXPOSE 8080
 
-CMD ["sh", "-c", "java -jar server.jar --port $PORT"]
+CMD ["sh", "-c", "java -cp server.jar net.lax1dude.eaglercraft.v1_12.server.EaglerXServerBootstrap --port $PORT"]
