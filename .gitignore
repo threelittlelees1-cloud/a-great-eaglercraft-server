@@ -1,0 +1,32 @@
+# Ignore world data
+world/
+world_nether/
+world_the_end/
+
+# Ignore logs
+logs/
+*.log
+*.lck
+
+# Ignore crash reports
+crash-reports/
+*.txt
+
+# Ignore plugin data
+plugins/
+plugin_data/
+*.jar
+
+# Ignore temporary files
+*.tmp
+*.dat
+*.cache
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Render build artifacts
+render.yaml
+.env
